@@ -1,0 +1,40 @@
+/* Orni-styles */
+
+/* Background Img Variables */
+
+$main-background: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg) !important; 
+$main-background-pos: 20% -24.8333px;
+/* End Background Img Variables  */
+
+/* Colors */
+
+$charade: #222630;
+
+/* End Colors */
+
+/*  Img FX */
+
+$sepia-sat-bright-hue: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+
+/* End Img FX */
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+ 
+$main-font: 'Young Serif', serif;
+
+/* End Fonts */
+
+body {
+	color: $charade;
+	font-family: $main-font;
+	
+	.site-container {
+		.banner {
+			background-image: $main-background;
+			background-position: $main-background-pos;
+			filer: $sepia-sat-bright-hue;
+		}
+	}
+}
