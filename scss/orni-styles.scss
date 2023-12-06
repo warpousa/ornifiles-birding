@@ -9,6 +9,10 @@ $main-background-pos: 20% -24.8333px;
 /* Colors */
 
 $charade: #222630;
+$menu-background: rgba(255,255,255,0.58);
+$menu-item-hover: rgba(189,209,215, 0.8);
+$menu-background: rgba(189,209,215, 0.67);
+$menu-background-highlight: rgba(189,209,215, 0.45);
 
 /* End Colors */
 
@@ -18,11 +22,37 @@ $sepia-sat-bright-hue: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180
 
 /* End Img FX */
 
+/* Transforms */
+
+$ease-quarter-sec: ease all 0.25s;
+$ease-half-sec: ease all 0.5s;
+$ease-one-sec: ease all 1s;
+
+/* End Transforms */
+
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@font-face {
+	font-family: 'The X-Files';
+    src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/The X-Files.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'x-files';
+    src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/x-files.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: 'Xfiles';
+    src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/Xfiles.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
  
 $main-font: 'Young Serif', serif;
+$TheX-Files-font: 'The X-Files';
+$x-files-font: 'x-files';
+$Xfiles-font: 'Xfiles';
 
 /* End Fonts */
 
@@ -30,11 +60,79 @@ body {
 	color: $charade;
 	font-family: $main-font;
 	
+	header {
+		&#header {
+			&.site-header {
+				padding: 0;
+				position: fixed;
+				background: $menu-background;
+				width: 100%;
+				transition: $ease-quarter-sec;
+			}
+		}
+	}
+	
 	.site-container {
 		.banner {
 			background-image: $main-background;
 			background-position: $main-background-pos;
 			filer: $sepia-sat-bright-hue;
+		}
+
+		div {
+			&.wrap {
+				max-width: 1620px;
+				
+				main {
+					&.content {
+						width: 95%;
+					}
+				}
+			}
+		}
+	
+		h1 { 
+			&.banner-title {
+				font-family: "Xfiles";
+				letter-spacing: 21px;
+				font-size: 400% !important;
+				text-shadow: 0 0 10px #000;
+				outline: 1px #000;
+				text-transform: uppercase;
+			}
+		}
+
+		.omega-nav-menu {
+			font-size: 0;
+			
+			li {
+				font-family: "X-files";
+				padding: 0;
+				
+				&.sfHover > a {
+					background-color: $menu-background-highlight;
+				}
+
+				a {
+					padding: 22px 15px 20px 15px;
+    				text-shadow: 1px 1px 4px white;
+					transition: $ease-half-sec;
+					
+					&:hover {
+						background: $menu-item-hover;
+					}
+				}
+				
+				&:hover > ul {
+					margin-top: 0px;
+    				margin-left: 1px;
+				}
+				ul {
+					&.sub-menu {
+						background: $menu-background;
+					}
+				}
+			}
 		}
 	}
 }
