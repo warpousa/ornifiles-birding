@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* Orni-styles */
+/* Background Img Variables */
+/* End Background Img Variables */
+/* Colors */
+/* End Colors */
+/* Img FX */
+/* End Img FX */
+/* Transforms */
+/* End Transforms */
+/* Fonts */
+ @font-face {
+	 font-family: 'The X-Files';
+	 src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/The X-Files.ttf') format('truetype');
+	/* Safari, Android, iOS */
+}
+ @font-face {
+	 font-family: 'x-files';
+	 src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/x-files.ttf') format('truetype');
+	/* Safari, Android, iOS */
+}
+ @font-face {
+	 font-family: 'Xfiles';
+	 src: url('https://ornifilesbirding.com/wp-content/themes/composer/fonts/Xfiles.ttf') format('truetype');
+	/* Safari, Android, iOS */
+}
+/* End Fonts */
+ body {
+	 color: #222630;
+	 font-family: 'Young Serif', serif;
+}
+ body header#header.site-header {
+	 padding: 0;
+	 position: fixed;
+	 background: rgba(189, 209, 215, 0.67);
+	 width: 100%;
+	 transition: ease all 0.25s;
+}
+ body .site-container .banner {
+	 background-image: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg) !important;
+	 background-position: 20% -24.8333px;
+	 filer: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+ body .site-container div.wrap {
+	 max-width: 1620px;
+}
+ body .site-container div.wrap main.content {
+	 width: 95%;
+}
+ body .site-container h1.banner-title {
+	 font-family: "Xfiles";
+	 letter-spacing: 21px;
+	 font-size: 400% !important;
+	 text-shadow: 0 0 10px #000;
+	 outline: 1px #000;
+	 text-transform: uppercase;
+}
+ body .site-container .omega-nav-menu {
+	 font-size: 0;
+}
+ body .site-container .omega-nav-menu li {
+	 font-family: "X-files";
+	 padding: 0;
+}
+ body .site-container .omega-nav-menu li.sfHover > a {
+	 background-color: rgba(189, 209, 215, 0.45);
+}
+ body .site-container .omega-nav-menu li a {
+	 padding: 22px 15px 20px 15px;
+	 text-shadow: 1px 1px 4px white;
+	 transition: ease all 0.5s;
+}
+ body .site-container .omega-nav-menu li a:hover {
+	 background: rgba(189, 209, 215, 0.8);
+}
+ body .site-container .omega-nav-menu li:hover > ul {
+	 margin-top: 0px;
+	 margin-left: 1px;
+}
+ body .site-container .omega-nav-menu li ul.sub-menu {
+	 background: rgba(189, 209, 215, 0.67);
+}
+ 
