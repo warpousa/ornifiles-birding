@@ -4,31 +4,79 @@
 
 $main-background: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg) !important; 
 $main-background-pos: 20% -24.8333px;
+
 /* End Background Img Variables  */
 
-/* Colors */
+/* Breakpoints */
+
+$lv: 	600px;
+//////////////
+$xxs: 		0;
+$xs: 	480px;
+$sm: 	576px;
+$md: 	768px;
+$lg: 	992px;
+$clg:  1023px;
+$xl:   1200px;
+$xxl:  1400px;
+
+@mixin lowres-vertical {
+	@media only screen and (max-height: $lv) and (max-width: $clg ) { @content}	
+}
+@mixin extra-extra-small {
+  @media only screen and (min-width: $xxs) and (max-width: $xs) { @content; }
+}
+@mixin phone-only-up {
+  @media only screen and (min-width: $xs) and (max-width: $sm) { @content; }	
+}
+@mixin tablet-portrait-up {
+  @media only screen and (min-width: $sm) and (max-width: $md) { @content; }	
+}
+@mixin tablet-landscape-up {
+  @media only screen and (min-width: $md) and (max-width: $lg) { @content; }	
+}
+@mixin desktop-up {
+  @media only screen and (min-width: $lg) and (max-width: $clg) { @content; }	
+}
+@mixin custom-desktop {
+  @media only screen and (min-width: $clg) and (max-width: $xl) { @content; }	
+}
+@mixin large-desktop-up {
+  @media only screen and (min-width: $xl) and (max-width: $xxl) { @content; }	
+}
+@mixin hd-desktop-up {
+  @media only screen and (min-width: $xxl) { @content; }	
+}
+
+/* End Breakpoints */
+
+/* Colors & Borders */
 
 $charade: #222630;
-$menu-background: rgba(255,255,255,0.58);
-$menu-item-hover: rgba(189,209,215, 0.8);
-$menu-background: rgba(189,209,215, 0.67);
-$menu-background-highlight: rgba(189,209,215, 0.45);
+$menu-background: rgba(189, 209, 215, 0.98);
+$menu-item-hover: rgba(211, 229, 235, 0.96);
+$menu-background-highlight: rgba(199, 219, 235, 0.95);
+$menu-border: 3px solid #008CBA;
+$submenu-background: rgba(202,225,233, 0.98);
 
-/* End Colors */
+/* End Colors & Borders */
 
 /*  Img FX */
 
-$sepia-sat-bright-hue: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+$nav-select-bg1: #3f606a inset 0px 0px 26px -12px;
+$sepia-sat-bright-hue: sepia(100%) saturate(300%) brightness(100%) hue-rotate(180deg);
+$sepia-sat-bright-hue-ii: sepia(40%) saturate(50%) brightness(100%) hue-rotate(80deg);
 
 /* End Img FX */
 
-/* Transforms */
+/* Transforms & Transitions */
 
 $ease-quarter-sec: ease all 0.25s;
 $ease-half-sec: ease all 0.5s;
 $ease-one-sec: ease all 1s;
+$animate-header: translateY(-75px);
 
-/* End Transforms */
+/* End Transforms & Transitions */
 
 /* Fonts */
 
@@ -68,6 +116,251 @@ body {
 				background: $menu-background;
 				width: 100%;
 				transition: $ease-quarter-sec;
+				z-index: 99;
+				&.hide-header {
+					transform: $animate-header;
+				}
+			}
+			
+			.site-title {
+				a {
+					color: #333;
+					font-family: "X-files";
+					text-transform: capitalize;
+					letter-spacing: 2px;
+					margin-left: 15px;
+					position: relative;
+					top: 7px;
+					transition: $ease-half-sec;
+					
+					@include extra-extra-small {
+						font-size: 11px;
+						letter-spacing: 1px;
+						margin-right: 5px;
+						top: -6px;
+					}
+					@include phone-only-up {
+						font-size: 15px;
+						margin-right: 10px;
+						top: -5px;
+					}
+					@include tablet-portrait-up { 
+						font-size: 20px;
+						top: -4px;
+					}
+					@include tablet-landscape-up { 
+						font-size: 22px;
+						top: -3px;
+					}
+					@include desktop-up {
+						font-size: 24px;
+						top: -3px;
+					}
+					@include custom-desktop {
+						font-size: 26px;
+						top: 10px;
+					}
+					@include large-desktop-up {
+						font-size: 32px;
+						top: 17px;
+					}
+					@include hd-desktop-up {
+						font-size: 36px;
+						top: 12px;
+					}
+				}
+			}
+			
+			nav {
+				&#navigation {
+					@include phone-only-up {
+						margin-right: 10px;
+					}
+					@include tablet-portrait-up { 
+						margin-right: 15px;
+					}
+					@include tablet-landscape-up { 
+						margin-right: 20px;
+					}
+					@include desktop-up {
+						margin-right: 25px;
+					}
+					@include large-desktop-up {
+						margin-right: 30px;
+					}
+					@include hd-desktop-up {
+						margin-right: 35px;
+					}
+					&.nav-primary {
+						ul {
+							&.menu {
+								background: $menu-background;
+								
+								@include  lowres-vertical {
+									overflow-y:scroll;
+    								overflow-x:hidden;
+									height: 118vh;
+								}
+								
+								@include extra-extra-small {
+									left: 0px;
+									top: 34px;
+									width: 100%;
+									margin: 0;
+								}
+								
+								@include phone-only-up {
+									left: 0px;
+									top: 34px;
+									width: 100%;
+									margin: 0;
+								}
+								
+								@include tablet-portrait-up {
+									left: 0px;
+									top: 34px;
+									width: 100%;
+									margin: 0;
+								}
+
+								@include tablet-landscape-up {
+									left: 0px;
+									top: 34px;
+									width: 100%;
+									margin: 0;
+								}
+								
+								@include desktop-up {
+									left: 0px;
+									top: 34px;
+									width: 100%;
+									margin: 0;
+								}
+								
+								li {
+									@include extra-extra-small {
+										&.menu-item-has-children {
+											&::before {
+												content: 'Ready...';
+											}
+										}
+										
+										&.menu-item-has-children.sfHover {
+											&::before {
+												content: 'Success!';
+											}
+										}
+									}
+									@include phone-only-up {
+										&.menu-item-has-children {
+											&::before {
+												content: 'Ready...';
+											}
+										}
+										
+										&.menu-item-has-children.sfHover {
+											&::before {
+												content: 'Success!';
+											}
+										}	
+									}											
+									@include tablet-portrait-up {
+										&.menu-item-has-children {
+											&::before {
+												content: 'Ready...';
+											}
+										}
+										
+										&.menu-item-has-children.sfHover {
+											&::before {
+												content: 'Success!';
+											}
+										}
+									}										
+									
+									ul {
+										li {
+											background-color: $submenu-background;
+											width: 100%;
+											
+											a {
+												@include extra-extra-small {
+													padding-left: 40px;
+													width: 200px;
+												}
+												@include phone-only-up {
+													padding-left: 40px;
+													width: 200px;													
+												}											
+												@include tablet-portrait-up {
+													padding-left: 40px;
+													width: 200px;													
+												}											
+												@include tablet-landscape-up {
+													padding-left: 40px;
+													width: 200px;
+												}
+												
+												&:hover {
+													width: 100% !important;
+												}
+											}
+										}
+									}
+									
+									a {
+										@include large-desktop-up {
+											font-size: 16px;
+										}
+										@include hd-desktop-up {
+											font-size: 20px;
+										}
+									}
+
+									&.menu-item-has-children > a {
+										&::after {
+											transform: rotate(90deg);
+											-ms-transform: rotate(90deg);
+											-webkit-transform: rotate(90deg);
+											-moz-transform: rotate(90deg);
+											content: " › ";
+											font-size: 33px;
+											position: absolute;
+											right: 64px;
+											top: 26px;
+											text-shadow: none;
+											transition: ease all 0.5s;
+											
+											@include desktop-up {
+												right: 50px;
+											}
+											@include custom-desktop {
+												right: 50px;
+											}
+											@include large-desktop-up {
+												right: 56px;
+											}
+
+											text-shadow: none;
+											transition: $ease-half-sec;
+										}
+
+//										&:hover {
+//											&::after {
+//												top: 35px;
+//												transform: rotate(270deg);
+//											}
+//										}
+									}
+
+									&.current_page_item {
+										box-shadow: $nav-select-bg1;
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -76,7 +369,7 @@ body {
 		.banner {
 			background-image: $main-background;
 			background-position: $main-background-pos;
-			filer: $sepia-sat-bright-hue;
+			filter: $sepia-sat-bright-hue-ii;
 		}
 
 		div {
@@ -111,27 +404,85 @@ body {
 				
 				&.sfHover > a {
 					background-color: $menu-background-highlight;
+					&::after {
+						top: 35px !important;
+						transform: rotate(270deg) !important;
+					}
 				}
 
 				a {
 					padding: 22px 15px 20px 15px;
     				text-shadow: 1px 1px 4px white;
 					transition: $ease-half-sec;
+					font-size: 13px;
+					
+					&::before {
+						content: " 𓅪 ";
+						color: black;
+						position: absolute;
+						right: 41%;
+						top: -7px;
+						text-shadow: none;
+						opacity: 0;
+						transition: $ease-quarter-sec;
+						font-size: 22px;
+						
+						@include tablet-landscape-up {
+							font-size: 23px;
+						}
+						@include custom-desktop {
+							font-size: 24px
+						}
+						@include large-desktop-up {
+							font-size: 25px;
+						}
+						@include hd-desktop-up {
+							font-size: 28px;
+							top: -12px;
+							right: 39%;
+						}
+					}
 					
 					&:hover {
 						background: $menu-item-hover;
-					}
+						width: 100%;
+						
+						&::before {
+							opacity: 1;
+						}
+					}	
 				}
 				
 				&:hover > ul {
 					margin-top: 0px;
     				margin-left: 1px;
 				}
+				
 				ul {
 					&.sub-menu {
 						background: $menu-background;
+						padding: 0;
+						margin-top: 0;
+						margin-left: 0;
+						
+						@include desktop-up {
+							width: 22%;
+							max-width: 420px;
+						}
+						@include custom-desktop {
+							width: 22%;
+							max-width: 420px;
+						}
+						@include large-desktop-up {
+							width: 22%;
+							max-width: 420px;
+						}
+						@include hd-desktop-up {
+							width: 22%;
+							max-width: 420px;
+						}
 					}
-				}
+				}		
 			}
 		}
 	}
