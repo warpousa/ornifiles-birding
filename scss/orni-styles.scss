@@ -494,3 +494,8 @@ body {
 		}
 	}
 }
+
+body header#header nav#navigation.nav-primary ul.menu li ul li:last-child,
+body .site-container .omega-nav-menu li ul.sub-menu {
+	border-bottom-right-radius: 15px;
+}
