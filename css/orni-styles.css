@@ -216,7 +216,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 36px;
 		position: absolute;
@@ -231,7 +231,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(270deg);
 		-webkit-transform: rotate(270deg);
 		-moz-transform: rotate(270deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 36px;
 		position: absolute;
@@ -248,7 +248,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 38px;
 		position: absolute;
@@ -263,7 +263,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(270deg);
 		-webkit-transform: rotate(270deg);
 		-moz-transform: rotate(270deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 38px;
 		position: absolute;
@@ -279,7 +279,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 40px;
 		position: absolute;
@@ -294,7 +294,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(270deg);
 		-webkit-transform: rotate(270deg);
 		-moz-transform: rotate(270deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 40px;
 		position: absolute;
@@ -311,7 +311,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 42px;
 		position: absolute;
@@ -326,7 +326,7 @@ body header#header nav#navigation.nav-primary ul.menu {
 		-ms-transform: rotate(270deg);
 		-webkit-transform: rotate(270deg);
 		-moz-transform: rotate(270deg);
-		content: " › ";
+		content: " ï¿½ ";
 		color: #333;
 		font-size: 40px;
 		position: absolute;
@@ -391,7 +391,7 @@ body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children 
 	-ms-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
-	content: " › ";
+	content: " ï¿½ ";
 	font-size: 33px;
 	position: absolute;
 	right: 64px;
@@ -522,7 +522,7 @@ body .site-container .omega-nav-menu li a {
 }
 
 body .site-container .omega-nav-menu li a::before {
-	content: " ? ";
+	content: " ð“…ª ";
 	color: black;
 	position: absolute;
 	right: 41%;
