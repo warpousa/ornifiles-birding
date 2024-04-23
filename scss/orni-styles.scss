@@ -9,8 +9,12 @@ $main-background-pos: 20% -24.8333px;
 
 /* Breakpoints */
 
+
+//// Vertical ////
 $lv: 	600px;
-//////////////
+//// End Vertical ////
+
+//// Horizontal ////
 $xxs: 	    0;
 $xs: 	480px;
 $sm: 	576px;
@@ -19,6 +23,9 @@ $lg: 	992px;
 $clg:  1023px;
 $xl:   1200px;
 $xxl:  1400px;
+//// End Horizontal ////
+
+//////////////
 
 @mixin lowres-vertical {
 	@media only screen and (max-height: $lv) and (max-width: $clg ) { @content}	
