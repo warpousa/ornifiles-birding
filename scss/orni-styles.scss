@@ -320,7 +320,7 @@ body {
 									
 									a {
 										@include large-desktop-up {
-											font-size: 16px;
+											font-size: 15px;
 										}
 										@include hd-desktop-up {
 											font-size: 20px;
@@ -414,9 +414,18 @@ body {
 				
 				&.sfHover > a {
 					background-color: $menu-background-highlight;
+					box-shadow: 5px 14px 7px -4px #494a4b12;
 					&::after {
 						top: 35px !important;
 						transform: rotate(270deg) !important;
+					}
+				}
+				
+				&:last-child {
+					a {
+						&:hover {
+							border-bottom-right-radius: 15px;
+						}
 					}
 				}
 
@@ -431,24 +440,24 @@ body {
 						color: black;
 						position: absolute;
 						right: 41%;
-						top: 3px;
+						top: 0;
 						text-shadow: none;
 						opacity: 0;
 						transition: $ease-quarter-sec;
 						font-size: 18px;
 						
 						@include tablet-landscape-up {
-							font-size: 20px;
+							font-size: 19px;
 						}
 						@include custom-desktop {
-							font-size: 22px
+							font-size: 21px
 						}
 						@include large-desktop-up {
-							font-size: 24px;
+							font-size: 23px;
 						}
 						@include hd-desktop-up {
-							font-size: 28px;
-							top: 3px;
+							font-size: 25px;
+							top: 0;
 							right: 39%;
 						}
 					}
@@ -498,8 +507,3 @@ body {
 		}
 	}
 }
-
-/*body header#header nav#navigation.nav-primary ul.menu li ul li:last-child,
-body .site-container .omega-nav-menu li ul.sub-menu {
-	border-bottom-right-radius: 15px;
-} */
