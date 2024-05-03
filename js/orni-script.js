@@ -9,7 +9,7 @@ jQuery.each( bannerImage, function(key, value) {
 	jQuery(value).addClass( classes[ Math.floor ( Math.random() * length ) ] );
 });
 
-// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar //
+// When user scrolls down, hide the navbar. When user scrolls up, show the navbar //
 
 document.getElementById("header").classList.add("show-header");
 let prevScrollpos = window.pageYOffset;
