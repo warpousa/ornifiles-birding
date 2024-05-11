@@ -309,7 +309,7 @@ body {
 													width: 200px;
 												}
 												
-												&:hover {
+												&:hover, &:focus, &:active {
 													width: 100% !important;
 												}
 											}
@@ -355,13 +355,6 @@ body {
 											text-shadow: none;
 											transition: $ease-half-sec;
 										}
-
-//										&:hover {
-//											&::after {
-//												top: 35px;
-//												transform: rotate(270deg);
-//											}
-//										}
 									}
 
 									&.current_page_item {
@@ -424,7 +417,7 @@ body {
 				
 				&:last-child {
 					a {
-						&:hover {
+						&:hover, &:focus, &:active {
 							border-bottom-right-radius: 15px;
 						}
 					}
@@ -463,7 +456,7 @@ body {
 						}
 					}
 					
-					&:hover {
+					&:hover, &:focus, &:active {
 						background: $menu-item-hover;
 						box-shadow: $menu-highlight-shadow;
 						width: 100%;
