@@ -322,7 +322,7 @@ body {
         /* line 459, ../scss/orni-styles.scss */
         body .site-container .omega-nav-menu li a:hover, body .site-container .omega-nav-menu li a:focus, body .site-container .omega-nav-menu li a:active {
           background: rgba(211, 229, 235, 0.96);
-          box-shadow: 7px 6px 14px 0px rgba(77, 134, 153, 0.3);
+          box-shadow: 7px 6px 14px 0px rgba(77, 134, 153, 0.15);
           width: 100%; }
           /* line 464, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li a:hover::before, body .site-container .omega-nav-menu li a:focus::before, body .site-container .omega-nav-menu li a:active::before {
