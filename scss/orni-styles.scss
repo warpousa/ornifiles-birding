@@ -60,6 +60,8 @@ $xxl:  1400px;
 /* Colors & Borders */
 
 $charade: #222630;
+$content-background1: #bdd0d6;
+$content-background2: #eafaff;
 $menu-background: rgba(189, 209, 215, 0.98);
 $menu-item-hover: rgba(211, 229, 235, 0.96);
 $menu-background-highlight: rgba(199, 219, 235, 0.95);
@@ -111,6 +113,16 @@ $x-files-font: 'x-files';
 $Xfiles-font: 'Xfiles';
 
 /* End Fonts */
+
+/* Mixins */
+
+@mixin main-content {
+  padding: 18px;
+  border-radius: 10px;
+  background: $content-background2;	
+}
+
+/* End Mixins */
 
 body {
 	color: $charade;
@@ -370,6 +382,9 @@ body {
 	}
 	
 	.site-container {
+		.site-inner {
+			background: $content-background1;
+		}
 		.banner {
 			background-image: $main-background;
 			background-position: $main-background-pos;
@@ -383,6 +398,7 @@ body {
 				main {
 					&.content {
 						width: 95%;
+						@include main-content;
 					}
 				}
 			}
