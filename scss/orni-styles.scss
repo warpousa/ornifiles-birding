@@ -2,8 +2,14 @@
 @charset "UTF-8";
 /* Background Img Variables */
 
-$main-background: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg) !important; 
+$main-background: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg); 
 $main-background-pos: 20% -24.8333px;
+
+$ornifiles-bg1: url("https://ornifilesbirding.com/wp-content/uploads/2024/05/ornifiles-bg-1.jpg") !important;
+$ornifiles-bg2: url("https://ornifilesbirding.com/wp-content/uploads/2024/05/ornifiles-bg-2.jpg") !important;
+$ornifiles-bg3: url("https://ornifilesbirding.com/wp-content/uploads/2024/05/ornifiles-bg-3.jpg") !important;
+$ornifiles-bg4: url("https://ornifilesbirding.com/wp-content/uploads/2024/05/ornifiles-bg-4.jpg") !important;
+$ornifiles-bg5: url("https://ornifilesbirding.com/wp-content/uploads/2024/05/ornifiles-bg-5.jpg") !important;
 
 /* End Background Img Variables  */
 
@@ -389,6 +395,22 @@ body {
 			background-image: $main-background;
 			background-position: $main-background-pos;
 			filter: $sepia-sat-bright-hue-ii;
+			
+			&.banner1 {
+				background-image: $ornifiles-bg1;
+			}
+			&.banner2 {
+				background-image: $ornifiles-bg2;
+			}
+			&.banner3 {
+				background-image: $ornifiles-bg3;
+			}
+			&.banner4 {
+				background-image: $ornifiles-bg4;
+			}
+			&.banner5 {
+				background-image: $ornifiles-bg5;
+			}
 		}
 
 		div {
