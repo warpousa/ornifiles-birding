@@ -1,7 +1,7 @@
 /* Start Ornifiles Javascript Customizations */ 
 
 // Assign random classes to specifc element(s) //
-let classes = new Array ('banner1', 'banner2', 'banner3');
+let classes = new Array ('banner1', 'banner2', 'banner3', 'banner4', 'banner5');
 let length  = classes.length;
 let bannerImage = jQuery('.banner');
 

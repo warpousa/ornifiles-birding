@@ -5,6 +5,7 @@
 $main-background: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg); 
 $main-background-pos: 20% -24.8333px;
 
+$ornifiles-bg-color: black;
 $ornifiles-bg1: url("../wp-content/uploads/2024/06/ornifiles-bg-1.jpg") !important;
 $ornifiles-bg2: url("../wp-content/uploads/2024/06/ornifiles-bg-2.jpg") !important;
 $ornifiles-bg3: url("../wp-content/uploads/2024/06/ornifiles-bg-3.jpg") !important;
@@ -391,6 +392,7 @@ body {
 			background: $content-background1;
 		}
 		.banner {
+			background-color: $ornifiles-bg-color;
 			background-image: $main-background;
 			background-position: $main-background-pos;
 			filter: $sepia-sat-bright-hue-ii;

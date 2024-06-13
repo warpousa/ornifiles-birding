@@ -24,11 +24,11 @@
 /* End Fonts */
 /* Mixins */
 /* End Mixins */
-/* line 132, ../scss/orni-styles.scss */
+/* line 133, ../scss/orni-styles.scss */
 body {
   color: #222630;
   font-family: "Young Serif", serif; }
-  /* line 138, ../scss/orni-styles.scss */
+  /* line 139, ../scss/orni-styles.scss */
   body header#header.site-header {
     padding: 0;
     position: fixed;
@@ -36,10 +36,10 @@ body {
     width: 100%;
     transition: ease all 0.25s;
     z-index: 99; }
-    /* line 145, ../scss/orni-styles.scss */
+    /* line 146, ../scss/orni-styles.scss */
     body header#header.site-header.hide-header {
       transform: translateY(-75px); }
-  /* line 151, ../scss/orni-styles.scss */
+  /* line 152, ../scss/orni-styles.scss */
   body header#header .site-title a {
     color: #333;
     font-family: "X-files";
@@ -50,176 +50,176 @@ body {
     top: 7px;
     transition: ease all 0.5s; }
     @media only screen and (min-width: 0) and (max-width: 480px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 11px;
         letter-spacing: 1px;
         margin-right: 5px;
         top: -6px; } }
     @media only screen and (min-width: 480px) and (max-width: 576px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 15px;
         margin-right: 10px;
         top: -5px; } }
     @media only screen and (min-width: 576px) and (max-width: 768px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 20px;
         top: -4px; } }
     @media only screen and (min-width: 768px) and (max-width: 992px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 22px;
         top: -3px; } }
     @media only screen and (min-width: 992px) and (max-width: 1023px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 24px;
         top: -3px; } }
     @media only screen and (min-width: 1023px) and (max-width: 1200px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 26px;
         top: 10px; } }
     @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 32px;
         top: 17px; } }
     @media only screen and (min-width: 1400px) {
-      /* line 151, ../scss/orni-styles.scss */
+      /* line 152, ../scss/orni-styles.scss */
       body header#header .site-title a {
         font-size: 36px;
         top: 12px; } }
   @media only screen and (min-width: 480px) and (max-width: 576px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 10px; } }
   @media only screen and (min-width: 576px) and (max-width: 768px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 15px; } }
   @media only screen and (min-width: 768px) and (max-width: 992px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 20px; } }
   @media only screen and (min-width: 992px) and (max-width: 1023px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 25px; } }
   @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 30px; } }
   @media only screen and (min-width: 1400px) {
-    /* line 200, ../scss/orni-styles.scss */
+    /* line 201, ../scss/orni-styles.scss */
     body header#header nav#navigation {
       margin-right: 35px; } }
-  /* line 221, ../scss/orni-styles.scss */
+  /* line 222, ../scss/orni-styles.scss */
   body header#header nav#navigation.nav-primary ul.menu {
     background: rgba(189, 209, 215, 0.98); }
     @media only screen and (max-height: 600px) and (max-width: 1023px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         overflow-y: scroll;
         overflow-x: hidden;
         height: 118vh; } }
     @media only screen and (min-width: 0) and (max-width: 480px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         left: 0px;
         top: 34px;
         width: 100%;
         margin: 0; } }
     @media only screen and (min-width: 480px) and (max-width: 576px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         left: 0px;
         top: 34px;
         width: 100%;
         margin: 0; } }
     @media only screen and (min-width: 576px) and (max-width: 768px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         left: 0px;
         top: 34px;
         width: 100%;
         margin: 0; } }
     @media only screen and (min-width: 768px) and (max-width: 992px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         left: 0px;
         top: 34px;
         width: 100%;
         margin: 0; } }
     @media only screen and (min-width: 992px) and (max-width: 1023px) {
-      /* line 221, ../scss/orni-styles.scss */
+      /* line 222, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu {
         left: 0px;
         top: 34px;
         width: 100%;
         margin: 0; } }
     @media only screen and (min-width: 0) and (max-width: 480px) {
-      /* line 268, ../scss/orni-styles.scss */
+      /* line 269, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children::before {
         content: 'Ready...'; }
-      /* line 274, ../scss/orni-styles.scss */
+      /* line 275, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children.sfHover::before {
         content: 'Success!'; } }
     @media only screen and (min-width: 480px) and (max-width: 576px) {
-      /* line 281, ../scss/orni-styles.scss */
+      /* line 282, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children::before {
         content: 'Ready...'; }
-      /* line 287, ../scss/orni-styles.scss */
+      /* line 288, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children.sfHover::before {
         content: 'Success!'; } }
     @media only screen and (min-width: 576px) and (max-width: 768px) {
-      /* line 294, ../scss/orni-styles.scss */
+      /* line 295, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children::before {
         content: 'Ready...'; }
-      /* line 300, ../scss/orni-styles.scss */
+      /* line 301, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children.sfHover::before {
         content: 'Success!'; } }
-    /* line 307, ../scss/orni-styles.scss */
+    /* line 308, ../scss/orni-styles.scss */
     body header#header nav#navigation.nav-primary ul.menu li ul li {
       background-color: rgba(202, 225, 233, 0.98);
       width: 100%; }
       @media only screen and (min-width: 0) and (max-width: 480px) {
-        /* line 311, ../scss/orni-styles.scss */
+        /* line 312, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li ul li a {
           padding-left: 40px;
           width: 200px; } }
       @media only screen and (min-width: 480px) and (max-width: 576px) {
-        /* line 311, ../scss/orni-styles.scss */
+        /* line 312, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li ul li a {
           padding-left: 40px;
           width: 200px; } }
       @media only screen and (min-width: 576px) and (max-width: 768px) {
-        /* line 311, ../scss/orni-styles.scss */
+        /* line 312, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li ul li a {
           padding-left: 40px;
           width: 200px; } }
       @media only screen and (min-width: 768px) and (max-width: 992px) {
-        /* line 311, ../scss/orni-styles.scss */
+        /* line 312, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li ul li a {
           padding-left: 40px;
           width: 200px; } }
-      /* line 329, ../scss/orni-styles.scss */
+      /* line 330, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li ul li a:hover, body header#header nav#navigation.nav-primary ul.menu li ul li a:focus, body header#header nav#navigation.nav-primary ul.menu li ul li a:active {
         width: 100% !important; }
-      /* line 333, ../scss/orni-styles.scss */
+      /* line 334, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li ul li:last-child {
         border-bottom-right-radius: 15px; }
     @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-      /* line 339, ../scss/orni-styles.scss */
+      /* line 340, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li a {
         font-size: 15px; } }
     @media only screen and (min-width: 1400px) {
-      /* line 339, ../scss/orni-styles.scss */
+      /* line 340, ../scss/orni-styles.scss */
       body header#header nav#navigation.nav-primary ul.menu li a {
         font-size: 20px; } }
-    /* line 349, ../scss/orni-styles.scss */
+    /* line 350, ../scss/orni-styles.scss */
     body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children > a::after {
       transform: rotate(90deg);
       -ms-transform: rotate(90deg);
@@ -235,53 +235,54 @@ body {
       text-shadow: none;
       transition: ease all 0.5s; }
       @media only screen and (min-width: 992px) and (max-width: 1023px) {
-        /* line 349, ../scss/orni-styles.scss */
+        /* line 350, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children > a::after {
           right: 50px; } }
       @media only screen and (min-width: 1023px) and (max-width: 1200px) {
-        /* line 349, ../scss/orni-styles.scss */
+        /* line 350, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children > a::after {
           right: 50px; } }
       @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-        /* line 349, ../scss/orni-styles.scss */
+        /* line 350, ../scss/orni-styles.scss */
         body header#header nav#navigation.nav-primary ul.menu li.menu-item-has-children > a::after {
           right: 56px; } }
-    /* line 377, ../scss/orni-styles.scss */
+    /* line 378, ../scss/orni-styles.scss */
     body header#header nav#navigation.nav-primary ul.menu li.current_page_item {
       box-shadow: #3f606a inset 0px 0px 26px -12px; }
-  /* line 390, ../scss/orni-styles.scss */
+  /* line 391, ../scss/orni-styles.scss */
   body .site-container .site-inner {
     background: #bdd0d6; }
-  /* line 393, ../scss/orni-styles.scss */
+  /* line 394, ../scss/orni-styles.scss */
   body .site-container .banner {
+    background-color: black;
     background-image: url(https://ornifilesbirding.com/wp-content/themes/composer/images/header.jpg);
     background-position: 20% -24.8333px;
     filter: sepia(40%) saturate(50%) brightness(100%) hue-rotate(80deg); }
-    /* line 398, ../scss/orni-styles.scss */
+    /* line 400, ../scss/orni-styles.scss */
     body .site-container .banner.banner1 {
       background-image: url("../wp-content/uploads/2024/06/ornifiles-bg-1.jpg") !important; }
-    /* line 401, ../scss/orni-styles.scss */
+    /* line 403, ../scss/orni-styles.scss */
     body .site-container .banner.banner2 {
       background-image: url("../wp-content/uploads/2024/06/ornifiles-bg-2.jpg") !important; }
-    /* line 404, ../scss/orni-styles.scss */
+    /* line 406, ../scss/orni-styles.scss */
     body .site-container .banner.banner3 {
       background-image: url("../wp-content/uploads/2024/06/ornifiles-bg-3.jpg") !important; }
-    /* line 407, ../scss/orni-styles.scss */
+    /* line 409, ../scss/orni-styles.scss */
     body .site-container .banner.banner4 {
       background-image: url("../wp-content/uploads/2024/06/ornifiles-bg-4.jpg") !important; }
-    /* line 410, ../scss/orni-styles.scss */
+    /* line 412, ../scss/orni-styles.scss */
     body .site-container .banner.banner5 {
       background-image: url("../wp-content/uploads/2024/06/ornifiles-bg-5.jpg") !important; }
-  /* line 416, ../scss/orni-styles.scss */
+  /* line 418, ../scss/orni-styles.scss */
   body .site-container div.wrap {
     max-width: 1620px; }
-    /* line 420, ../scss/orni-styles.scss */
+    /* line 422, ../scss/orni-styles.scss */
     body .site-container div.wrap main.content {
       width: 95%;
       padding: 18px;
       border-radius: 10px;
       background: #eafaff; }
-  /* line 429, ../scss/orni-styles.scss */
+  /* line 431, ../scss/orni-styles.scss */
   body .site-container h1.banner-title {
     font-family: "Xfiles";
     letter-spacing: 21px;
@@ -289,31 +290,31 @@ body {
     text-shadow: 0 0 10px #000;
     outline: 1px #000;
     text-transform: uppercase; }
-  /* line 439, ../scss/orni-styles.scss */
+  /* line 441, ../scss/orni-styles.scss */
   body .site-container .omega-nav-menu {
     font-size: 0; }
-    /* line 442, ../scss/orni-styles.scss */
+    /* line 444, ../scss/orni-styles.scss */
     body .site-container .omega-nav-menu li {
       font-family: "X-files";
       padding: 0; }
-      /* line 446, ../scss/orni-styles.scss */
+      /* line 448, ../scss/orni-styles.scss */
       body .site-container .omega-nav-menu li.sfHover > a {
         background-color: rgba(199, 219, 235, 0.95);
         box-shadow: 5px 14px 7px -4px #494a4b12; }
-        /* line 449, ../scss/orni-styles.scss */
+        /* line 451, ../scss/orni-styles.scss */
         body .site-container .omega-nav-menu li.sfHover > a::after {
           top: 35px !important;
           transform: rotate(270deg) !important; }
-      /* line 457, ../scss/orni-styles.scss */
+      /* line 459, ../scss/orni-styles.scss */
       body .site-container .omega-nav-menu li:last-child a:hover, body .site-container .omega-nav-menu li:last-child a:focus, body .site-container .omega-nav-menu li:last-child a:active {
         border-bottom-right-radius: 15px; }
-      /* line 463, ../scss/orni-styles.scss */
+      /* line 465, ../scss/orni-styles.scss */
       body .site-container .omega-nav-menu li a {
         padding: 22px 15px 20px 15px;
         text-shadow: 1px 1px 4px white;
         transition: ease all 0.5s;
         font-size: 13px; }
-        /* line 469, ../scss/orni-styles.scss */
+        /* line 471, ../scss/orni-styles.scss */
         body .site-container .omega-nav-menu li a::before {
           content: " 𓅪 ";
           color: black;
@@ -325,36 +326,36 @@ body {
           transition: ease all 0.25s;
           font-size: 18px; }
           @media only screen and (min-width: 768px) and (max-width: 992px) {
-            /* line 469, ../scss/orni-styles.scss */
+            /* line 471, ../scss/orni-styles.scss */
             body .site-container .omega-nav-menu li a::before {
               font-size: 19px; } }
           @media only screen and (min-width: 1023px) and (max-width: 1200px) {
-            /* line 469, ../scss/orni-styles.scss */
+            /* line 471, ../scss/orni-styles.scss */
             body .site-container .omega-nav-menu li a::before {
               font-size: 21px; } }
           @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-            /* line 469, ../scss/orni-styles.scss */
+            /* line 471, ../scss/orni-styles.scss */
             body .site-container .omega-nav-menu li a::before {
               font-size: 23px; } }
           @media only screen and (min-width: 1400px) {
-            /* line 469, ../scss/orni-styles.scss */
+            /* line 471, ../scss/orni-styles.scss */
             body .site-container .omega-nav-menu li a::before {
               font-size: 25px;
               top: 0;
               right: 39%; } }
-        /* line 496, ../scss/orni-styles.scss */
+        /* line 498, ../scss/orni-styles.scss */
         body .site-container .omega-nav-menu li a:hover, body .site-container .omega-nav-menu li a:focus, body .site-container .omega-nav-menu li a:active {
           background: rgba(211, 229, 235, 0.96);
           box-shadow: 7px 6px 14px 0px rgba(77, 134, 153, 0.15);
           width: 100%; }
-          /* line 501, ../scss/orni-styles.scss */
+          /* line 503, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li a:hover::before, body .site-container .omega-nav-menu li a:focus::before, body .site-container .omega-nav-menu li a:active::before {
             opacity: 1; }
-      /* line 507, ../scss/orni-styles.scss */
+      /* line 509, ../scss/orni-styles.scss */
       body .site-container .omega-nav-menu li:hover > ul {
         margin-top: 0px;
         margin-left: 1px; }
-      /* line 513, ../scss/orni-styles.scss */
+      /* line 515, ../scss/orni-styles.scss */
       body .site-container .omega-nav-menu li ul.sub-menu {
         background: rgba(189, 209, 215, 0.98);
         padding: 0;
@@ -362,22 +363,22 @@ body {
         margin-left: 0;
         border-bottom-right-radius: 15px; }
         @media only screen and (min-width: 992px) and (max-width: 1023px) {
-          /* line 513, ../scss/orni-styles.scss */
+          /* line 515, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li ul.sub-menu {
             width: 22%;
             max-width: 420px; } }
         @media only screen and (min-width: 1023px) and (max-width: 1200px) {
-          /* line 513, ../scss/orni-styles.scss */
+          /* line 515, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li ul.sub-menu {
             width: 22%;
             max-width: 420px; } }
         @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-          /* line 513, ../scss/orni-styles.scss */
+          /* line 515, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li ul.sub-menu {
             width: 22%;
             max-width: 420px; } }
         @media only screen and (min-width: 1400px) {
-          /* line 513, ../scss/orni-styles.scss */
+          /* line 515, ../scss/orni-styles.scss */
           body .site-container .omega-nav-menu li ul.sub-menu {
             width: 22%;
             max-width: 420px; } }
